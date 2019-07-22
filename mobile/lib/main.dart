@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+
+GoogleSignIn _googleSignIn = GoogleSignIn(
+  scopes: [
+    'email',
+    'https://www.googleapis.com/auth/contacts.readonly',
+  ],
+);
 
 void main() => runApp(MyApp());
 
@@ -25,9 +33,22 @@ class MyApp extends StatelessWidget {
           title: Text("Mymo"),
         ),
         body: Center(
-          child: Text("Hello World"),
-        ),
+            child: RaisedButton(
+          onPressed: () {
+            _handleSignIn();
+          },
+          child: Text("Sign In"),
+        )),
       ),
     );
+  }
+
+  Future<void> _handleSignIn() async {
+    try {
+      var user = await _googleSignIn.signIn();
+      debugPrint(user.toString());
+    } catch (error) {
+      print(error);
+    }
   }
 }
