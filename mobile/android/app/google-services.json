@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "601017339145",
+    "firebase_url": "https://mymo-4ac44.firebaseio.com",
+    "project_id": "mymo-4ac44",
+    "storage_bucket": "mymo-4ac44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601017339145:android:b816256e5c2ee188",
+        "android_client_info": {
+          "package_name": "com.mymo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601017339145-7g1js1s314ee67sv0vf6oh9fjrls6qf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mymo.app",
+            "certificate_hash": "82d3314eb432eafa0ec9085c65c72051389b24ac"
+          }
+        },
+        {
+          "client_id": "601017339145-65ve4avbohjtp2nm6ge1j82tv9ondlvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8FNOBtO_kFJc2Vhn0-RrBm7P0TafWxMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601017339145-65ve4avbohjtp2nm6ge1j82tv9ondlvm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "601017339145-fpoef5hgbruaqs8sji1eeacisvfm5jeo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mymo.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
