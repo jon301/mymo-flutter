@@ -1,4 +1,4 @@
-package com.example.mymo;
+package com.mymo.app;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
